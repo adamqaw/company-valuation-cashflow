@@ -1,0 +1,6 @@
+TO SEARCH COMPANY INFO ON SEC WEBSITE:
+    https://www.sec.gov/edgar/searchedgar/companysearch.html
+
+- Use BS4 to scrape info from the financial statement
+
+
