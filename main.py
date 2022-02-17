@@ -6,7 +6,7 @@ import os
 
 
 class Finance:
-  API_KEY = '896123476cd9c8becbc6e08ba9eb5108'
+  API_KEY = f'{os.get('API_KEY')}'
 
   companies_response = requests.get(f'https://fmpcloud.io/api/v3/stock-screener?sector=technology&marketCapMoreThan=100000000000&limit=100&apikey={API_KEY}')
   companies = companies_response.json()
